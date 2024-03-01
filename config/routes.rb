@@ -4,7 +4,8 @@
   
       devise_for :users, controllers: {
         sessions: 'users/sessions',
-        registraions: 'users/registraions'
+        registrations: 'users/registrations'
+
       }
 
       # resources :companies

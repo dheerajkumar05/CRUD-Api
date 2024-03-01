@@ -2,6 +2,7 @@ class Company < ApplicationRecord
   belongs_to :user
   validates :name, presence: true, uniqueness:true
   validates :location, presence: true
+  validates :country, presence: true
   validates :zipcode, presence: true
   validates :phone_number, presence: true
   validates :description, presence: true
