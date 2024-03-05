@@ -60,4 +60,6 @@ gem 'shoulda-matchers'
 gem 'activeadmin'
 gem 'sprockets'
 gem 'sass-rails'
+gem "capybara"
+
 # gem 'country_select'
